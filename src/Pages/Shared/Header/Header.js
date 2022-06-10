@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import parsonal from '../../../images/logo/parsonal.png';
+import resume from '../../../images/resume/resume.pdf';
+
 
 const Header = () => {
     return (
@@ -25,7 +27,7 @@ const Header = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-2xl ms-16 lg:mx-0">
+                <Link to='/' className="btn btn-ghost normal-case text-2xl ms-16 hidden lg:flex lg:mx-0">
                     <img src={parsonal} alt="" />
                 </Link>
             </div>
@@ -39,7 +41,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='https://drive.google.com/file/d/1z_zf5Lka3v5qfc0DMHZhvDk3Fgz5A38l/view' target="_blank" className='btn btn-ghost normal-case text-2xl'>Resume</a>
+                <Link to={resume} target="_blank" className='btn btn-ghost normal-case text-2xl' download={resume}>Resume</Link>
             </div>
         </div>
     );

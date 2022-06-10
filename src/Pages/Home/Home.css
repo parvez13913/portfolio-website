@@ -1,4 +1,5 @@
-.banner-container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Rubik&family=Tiro+Devanagari+Sanskrit&display=swap");
+
+.home-section {
+  font-family: "Rubik", sans-serif;
 }
