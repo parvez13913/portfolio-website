@@ -34,49 +34,49 @@ const Skill = () => {
             <div className='my-4'>
                 <Slider {...settings}>
                     <div>
-                        <img className='w-[50px]' src={html} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={html} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={css} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={css} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={bootstrap} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={bootstrap} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={tailwind} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={tailwind} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={javascript} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={javascript} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={react} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={react} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={firebase} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={firebase} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={nodeJs} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={nodeJs} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={expressJs} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={expressJs} alt="" />
                     </div>
                     <div>
-                        <img className='w-[30px]' src={mongoDB} alt="" />
+                        <img className='lg:w-[30px] w-[30px]' src={mongoDB} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={typescript} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={typescript} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={nextJS} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={nextJS} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={html} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={html} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={figma} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={figma} alt="" />
                     </div>
                     <div>
-                        <img className='w-[50px]' src={canva} alt="" />
+                        <img className='lg:w-[50px] w-[30px]' src={canva} alt="" />
                     </div>
                 </Slider>
             </div>
