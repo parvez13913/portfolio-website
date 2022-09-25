@@ -1,0 +1,7 @@
+.back-button {
+  background-image: linear-gradient(to left, rgb(12 177 216), rgb(54 135 243));
+}
+
+.back-button:hover {
+  background-image: linear-gradient(to left, rgb(54 135 243), rgb(12 177 216));
+}

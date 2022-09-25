@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import parsonal from '../../../images/logo/parsonal.png';
-import resume from '../../../images/resume/resume.pdf';
 
 
 const Header = () => {
     return (
-        <div className="navbar bg-white shadow-md lg:flex justify-between lg:w-[100%] ">
+        <div className="navbar bg-white shadow-md lg:flex justify-between lg:w-[100%] sticky top-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -42,7 +41,9 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to={resume} target="_blank" className='btn btn-ghost normal-case text-2xl' download={resume}>Resume</Link>
+                <a href="https://drive.google.com/file/d/1QykvSJcidM859jnvkw3VZSWvZDF95YnK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button className='btn btn-ghost normal-case text-2xl'>Resume</button>
+                </a>
             </div>
         </div>
     );
