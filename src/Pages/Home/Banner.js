@@ -1,17 +1,17 @@
 import React from 'react';
-import developerImg from '../../images/developer/parvez.jpg';
+import developerImg from '../../images/developer/parvez.png';
 import resume from '../../images/resume/MERN Stack Resume.pdf';
 import { Link } from 'react-router-dom';
 import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='bg-[#f9f9ff] pb-4'>
+        <div className='bg-[#f9f9ff] pb-4 font'>
             <div className='lg:flex justify-around items-center'>
                 <div className='text-center lg:mt-16 lg:w-[50%]'>
-                    <h1 className='mb-4 pt-2 lg:pt-0'>THIS IS ME</h1>
+                    <h1 className='mb-4 pt-2 lg:pt-0 text-lg'>THIS IS ME</h1>
                     <h2 className='text-5xl font-bold'>MERN Stack Web Developer</h2>
-                    <p className='mt-8'>
+                    <p className='mt-2'>
                         I am a WEB Developer. I am working with React, Node.js, and MongoDB.I also have experience in developing static websites using HTML, CSS and JavaScript(ES6).
                     </p>
                     <button className="uppercase p-3 font-normal text-white btn-wide mt-6 back-button">
@@ -29,13 +29,8 @@ const Banner = () => {
                         </Link>
                     </button>
                 </div>
-                {/* <div>
-                    <img className='w-full' src={developerImg} alt="developerImg" />
-                </div> */}
-                <div className="avatar">
-                    <div className="w-64 rounded-full">
-                        <img src={developerImg} alt="developerImg" />
-                    </div>
+                <div className='lg:pt-3 pt-2'>
+                    <img className='w-96 rounded-md background-img img' src={developerImg} alt="developerImg" />
                 </div>
             </div>
         </div>
