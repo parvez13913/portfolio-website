@@ -1,26 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Macondo&family=Poppins&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Bungee+Spice&family=Poppins&display=swap");
 
-.back-button {
-  background-image: linear-gradient(to left, rgb(12 177 216), rgb(54 135 243));
-}
-
-.back-button:hover {
-  background-image: linear-gradient(to left, rgb(54 135 243), rgb(12 177 216));
-}
-
-.background-img {
-  background-image: url("https://i.ibb.co/0C5XPcZ/background-img.jpg");
-}
 .font {
-  font-family: "Poppins", sans-serif;
-}
-.img {
-  border: 5px solid #eeeeee;
-  transition: width 2s, height 1s, transform 1s;
-}
-
-.img:hover {
-  width: 384px;
-  height: 384px;
-  transform: scale(0.9, 0.9);
+  font-family: "Baloo 2", cursive;
 }

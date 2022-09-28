@@ -8,13 +8,12 @@ const Banner = () => {
     return (
         <div className='bg-[#f9f9ff] pb-4 font'>
             <div className='lg:flex justify-around items-center'>
-                <div className='text-center lg:mt-16 lg:w-[50%]'>
-                    <h1 className='mb-4 pt-2 lg:pt-0 text-lg'>THIS IS ME</h1>
-                    <h2 className='text-5xl font-bold'>MERN Stack Web Developer</h2>
-                    <p className='mt-2'>
-                        I am a WEB Developer. I am working with React, Node.js, and MongoDB.I also have experience in developing static websites using HTML, CSS and JavaScript(ES6).
-                    </p>
-                    <button className="uppercase p-3 font-normal text-white btn-wide mt-6 back-button">
+                <div>
+                    <h1 className='text-5xl text-[#8cc090] font-bold'>HELLO!</h1>
+                    <h1 className='text-5xl'>I Am,Parvez Rahman</h1>
+                    <h2 className='font-bold'>MERN Stack Web Developer</h2>
+
+                    <button className="uppercase p-3 font-normal text-white btn-wide mt-6 bg-gradient-to-r from-cyan-500 to-blue-500 hover:rounded-full transform duration-1000">
                         <Link to={resume} target="_blank" download={resume}>
                             <div className='flex items-center justify-center'>
                                 <span>
@@ -30,7 +29,7 @@ const Banner = () => {
                     </button>
                 </div>
                 <div className='lg:pt-3 pt-2'>
-                    <img className='w-96 rounded-md background-img img' src={developerImg} alt="developerImg" />
+                    <img className='w-96 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000' style={{ backgroundImage: `url(https://i.ibb.co/0C5XPcZ/background-img.jpg)` }} src={developerImg} alt="developerImg" />
                 </div>
             </div>
         </div>

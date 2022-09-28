@@ -5,7 +5,7 @@ import parsonal from '../../../images/logo/parsonal.png';
 
 const Header = () => {
     return (
-        <div className="navbar bg-white shadow-md lg:flex justify-between lg:w-[100%] sticky top-0">
+        <div className="navbar bg-white shadow-md lg:flex justify-between lg:w-[100%] sticky top-0 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">

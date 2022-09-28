@@ -1,11 +1,11 @@
 import React from 'react';
-import developerImg from '../../images/parvez.png';
+// import developerImg from '../../images/parvez.png';
 
 const PersonalDetails = () => {
     return (
         <div className='lg:flex justify-around items-center my-8 lg:container'>
             <div className='w-[100%]'>
-                <img src={developerImg} alt="DeveloperPhoto" />
+                {/* <img src={developerImg} alt="DeveloperPhoto" /> */}
             </div>
             <div className='text-center mt-16 lg:w-[50%]'>
                 <h3 className='my-8'>About Me</h3>
