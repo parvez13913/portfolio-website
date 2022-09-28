@@ -2,18 +2,29 @@ import React from 'react';
 import developerImg from '../../images/developer/parvez.png';
 import resume from '../../images/resume/MERN Stack Resume.pdf';
 import { Link } from 'react-router-dom';
+import facebookIcon from '../../images/icon/facebook.svg';
+import instagramIcon from '../../images/icon/instagram.svg';
+import linkedinIcon from '../../images/icon/linkedin.svg';
+import githubIcon from '../../images/icon/github.svg';
 import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='bg-[#f9f9ff] pb-4 font'>
+        <div className='pb-4 font'>
             <div className='lg:flex justify-around items-center'>
-                <div>
-                    <h1 className='text-5xl text-[#8cc090] font-bold'>HELLO!</h1>
-                    <h1 className='text-5xl'>I Am,Parvez Rahman</h1>
-                    <h2 className='font-bold'>MERN Stack Web Developer</h2>
-
-                    <button className="uppercase p-3 font-normal text-white btn-wide mt-6 bg-gradient-to-r from-cyan-500 to-blue-500 hover:rounded-full transform duration-1000">
+                <div className='w-1/2'>
+                    <h1 className='text-5xl text-[#8cc090] font-bold mb-2'>HELLO!</h1>
+                    <h1 className='text-6xl font-bold my-2 text-white'>I Am,Parvez Rahman</h1>
+                    <p className='text-3xl text-[#808da4]'>
+                        I'm Parvez Rahman, a professional web developer with long-time experience in this field​.
+                    </p>
+                    <div className='flex items-center justify-start py-2'>
+                        <a target='_blank' className='mr-4 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://www.facebook.com/parvez.rahman.13913"><img className='w-6' src={facebookIcon} alt="" /></a>
+                        <a target='_blank' className='mx-5 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://www.instagram.com/parvez13913/"><img className='w-5' src={instagramIcon} alt="" /></a>
+                        <a target='_blank' className='mx-5 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://www.linkedin.com/in/parvez-rahman-87714422a/"><img className='w-5' src={linkedinIcon} alt="" /></a>
+                        <a target='_blank' className='mx-5 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://github.com/parvez13913"><img className='w-5' src={githubIcon} alt="" /></a>
+                    </div>
+                    <button className="uppercase p-3 font-normal text-white btn-wide mt-6 border border-[#8cc090] hover:rounded-full transform duration-1000">
                         <Link to={resume} target="_blank" download={resume}>
                             <div className='flex items-center justify-center'>
                                 <span>
@@ -29,7 +40,7 @@ const Banner = () => {
                     </button>
                 </div>
                 <div className='lg:pt-3 pt-2'>
-                    <img className='w-96 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000' style={{ backgroundImage: `url(https://i.ibb.co/0C5XPcZ/background-img.jpg)` }} src={developerImg} alt="developerImg" />
+                    <img className='w-96 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000' src={developerImg} alt="developerImg" />
                 </div>
             </div>
         </div>
