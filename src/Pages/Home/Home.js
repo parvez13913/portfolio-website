@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import Education from './Education';
 import './Home.css';
 import PersonalDetails from './PersonalDetails';
 import Projects from './Projects';
@@ -12,8 +13,10 @@ const Home = () => {
             <Banner />
             <PersonalDetails />
             <Skill />
-            <Services />
-            <Projects />
+            <Education />
+            {/* <Services />
+            <Projects /> */}
+
         </div>
     );
 };

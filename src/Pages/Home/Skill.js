@@ -5,7 +5,7 @@ import tailwind from '../../images/skill/tailwind.svg';
 import bootstrap from '../../images/skill/bootstrap.svg';
 import javascript from '../../images/skill/javascript.svg';
 import react from '../../images/skill/react.svg';
-import mongoDB from '../../images/skill/mongoDB.svg';
+import mongoDB from '../../images/skill/mongoDb.png';
 import firebase from '../../images/skill/firebase.svg';
 import typescript from '../../images/skill/typescript.svg';
 import nextJS from '../../images/skill/nextJS.svg';
@@ -23,7 +23,7 @@ const Skill = () => {
         { name: "Tailwind", img: tailwind, id: 4 },
         { name: "Bootstrap", img: bootstrap, id: 5 },
         { name: "Javascript", img: javascript, id: 6 },
-        // { name: "MongoDB", img: mongoDB, id: 7 },
+        { name: "MongoDB", img: mongoDB, id: 7 },
         { name: "firebase", img: firebase, id: 8 },
         { name: "Typescript", img: typescript, id: 9 },
         { name: "Next", img: nextJS, id: 10 },
@@ -34,14 +34,14 @@ const Skill = () => {
     ]
     return (
         <div className='mt-24'>
-            <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center mb-24'>My Skill</h2>
+            <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center font mb-24'>My Skill</h2>
 
 
             <div className='my-4 grid grid-cols-4 gap-4 text-[#808da4] text-center justify-items-center'>
                 {
                     skills.map(skill => <div
                         key={skill.id}
-                        className='border text-lg font-semibold border-[#8cc909] px-8 py-5 w-32 hover:bg-[#8cc090] hover:text-white flex flex-col justify-center items-center'>
+                        className='border text-lg font-semibold border-[#8cc090] px-8 py-5 w-32 hover:bg-[#8cc090] hover:text-white flex flex-col justify-center items-center'>
                         <img src={skill.img} alt="canva" />
                         <h2>{skill.name}</h2>
                     </div>)
