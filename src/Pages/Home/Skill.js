@@ -1,7 +1,4 @@
 import React from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import html from '../../images/skill/html.svg';
 import css from '../../images/skill/css.svg';
 import tailwind from '../../images/skill/tailwind.svg';
@@ -18,67 +15,37 @@ import figma from '../../images/skill/figma.svg';
 import canva from '../../images/skill/canva.svg';
 
 const Skill = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
-    };
+
+    const skills = [
+        { name: "HTML", img: html, id: 1 },
+        { name: "CSS", img: css, id: 2 },
+        { name: "React", img: react, id: 3 },
+        { name: "Tailwind", img: tailwind, id: 4 },
+        { name: "Bootstrap", img: bootstrap, id: 5 },
+        { name: "Javascript", img: javascript, id: 6 },
+        // { name: "MongoDB", img: mongoDB, id: 7 },
+        { name: "firebase", img: firebase, id: 8 },
+        { name: "Typescript", img: typescript, id: 9 },
+        { name: "Next", img: nextJS, id: 10 },
+        { name: "Express", img: expressJs, id: 11 },
+        { name: "Node", img: nodeJs, id: 12 },
+        { name: "figma", img: figma, id: 13 },
+        { name: "canva", img: canva, id: 14 }
+    ]
     return (
-        <div className='container mx-auto text-4xl'>
-            <h2 className="text-center my-3">My Skill</h2>
-            <div className='my-4'>
-                <Slider {...settings}>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={html} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={css} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={bootstrap} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={tailwind} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={javascript} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={react} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={firebase} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={nodeJs} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={expressJs} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[30px] w-[30px]' src={mongoDB} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={typescript} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={nextJS} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={html} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={figma} alt="" />
-                    </div>
-                    <div>
-                        <img className='lg:w-[50px] w-[30px]' src={canva} alt="" />
-                    </div>
-                </Slider>
+        <div className='mt-24'>
+            <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center mb-24'>My Skill</h2>
+
+
+            <div className='my-4 grid grid-cols-4 gap-4 text-[#808da4] text-center justify-items-center'>
+                {
+                    skills.map(skill => <div
+                        key={skill.id}
+                        className='border text-lg font-semibold border-[#8cc909] px-8 py-5 w-32 hover:bg-[#8cc090] hover:text-white flex flex-col justify-center items-center'>
+                        <img src={skill.img} alt="canva" />
+                        <h2>{skill.name}</h2>
+                    </div>)
+                }
             </div>
         </div>
     );

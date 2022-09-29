@@ -11,8 +11,8 @@ const Home = () => {
         <div className='bg-[#152136]'>
             <Banner />
             <PersonalDetails />
-            <Services />
             <Skill />
+            <Services />
             <Projects />
         </div>
     );
