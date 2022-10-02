@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 const PersonalDetails = () => {
     return (
         <div className='lg:flex justify-around items-center my-8 font'>
-            <div className='w-1/2'>
+            <div className='lg:pt-3 pt-2'>
                 <img className='w-96 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000' src={developerImg} alt="developerImg" />
             </div>
-            <div className='text-left mt-16'>
+            <div className='text-left mt-16 pl-4 lg:pl-0'>
                 <div>
                     <h3 className='text-4xl mt-2 font-bold text-[#8cc090]'>About Me</h3>
                 </div>

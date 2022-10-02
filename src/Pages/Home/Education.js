@@ -34,16 +34,17 @@ const Education = () => {
     ]
     return (
         <div className='mt-24 font'>
-            <h2 className='text-center text-7xl'>
+            <h2 className='text-center text-4xl'>
                 <span className='text-white'>My</span>
                 <span className='text-[#8cc090]'> Education</span>
             </h2>
-            <div className='mt-12 text-white grid grid-cols-2 gap-4 justify-items-center'>
+            <div className='mt-12 text-white grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center'>
                 {
                     educations.map(education => <div
                         key={education.id}
-                        className="w-[60%] my-3"
+                        className="lg:w-[60%] pl-4 lg:pl-0 my-3"
                     >
+
                         <div className='mb-8'>
                             <span className='w-24 px-4 py-2 rounded-full border border-[#8cc090] hover:bg-[#8cc090]'>{education.PassingYear}</span>
                         </div>

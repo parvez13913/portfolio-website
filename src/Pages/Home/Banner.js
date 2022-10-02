@@ -8,15 +8,15 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='pb-4 font'>
+        <div className='lg:pb-4 font'>
             <div className='lg:flex justify-around items-center'>
-                <div className='w-1/2'>
-                    <h1 className='text-4xl text-[#8cc090] font-bold my-3'>HELLO!</h1>
-                    <h1 className='text-5xl font-bold my-3 text-white'>I Am,Parvez Rahman</h1>
-                    <p className='text-2xl text-[#808da4] leading-relaxed'>
+                <div className='p-4 lg:p-0'>
+                    <h1 className='text-4xl text-[#8cc090] font-bold lg:my-3'>HELLO!</h1>
+                    <h1 className='text-3xl font-bold my-3 text-white'>I Am,Parvez Rahman</h1>
+                    <p className='text-xl text-[#808da4] leading-relaxed'>
                         I'm Parvez Rahman, a professional web developer with long-time experience in this field​.
                     </p>
-                    <div className='flex items-center justify-start pt-5'>
+                    <div className='lg:flex items-center justify-start pt-5 hidden'>
                         <a target='_blank' className='mr-4 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://www.facebook.com/parvez.rahman.13913"><img className='w-6' src={facebookIcon} alt="" /></a>
                         <a target='_blank' className='mx-5 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://www.instagram.com/parvez13913/"><img className='w-5' src={instagramIcon} alt="" /></a>
                         <a target='_blank' className='mx-5 p-3 border rounded-full border-[#8cc090] hover:bg-[#8cc090]' href="https://www.linkedin.com/in/parvez-rahman-87714422a/"><img className='w-5' src={linkedinIcon} alt="" /></a>
