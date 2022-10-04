@@ -37,7 +37,7 @@ const Skill = () => {
             <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center font lg:mb-24'>My Skill</h2>
 
 
-            <div className='my-4 grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-4 text-[#808da4] text-center justify-items-center'>
+            <div className='my-4 grid grid-cols-2 md:grid-cols-3 md:gap-3 gap-2 lg:grid-cols-4 lg:gap-4 text-[#808da4] text-center justify-items-center'>
                 {
                     skills.map(skill => <div
                         key={skill.id}
