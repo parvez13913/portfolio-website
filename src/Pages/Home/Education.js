@@ -34,7 +34,7 @@ const Education = () => {
     ]
     return (
         <div className='mt-24 font'>
-            <h2 className='text-center text-4xl'>
+            <h2 className='text-center text-4xl font-bold'>
                 <span className='text-white'>My</span>
                 <span className='text-[#8cc090]'> Education</span>
             </h2>
@@ -42,7 +42,7 @@ const Education = () => {
                 {
                     educations.map(education => <div
                         key={education.id}
-                        className="lg:w-[60%] md:w-3/4 pl-4 my-3 border-l"
+                        className="lg:w-3/4 md:w-3/4 pl-4 my-3 border-l"
                     >
                         <div className='w-10 h-10 p-1 -mt-10 -ml-9 pl-2 pt-2 rounded-full bg-[#8cc090]'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
