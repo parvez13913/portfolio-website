@@ -11,8 +11,8 @@ const Services = () => {
             <div>
                 <h1 className='text-[#8cc090] text-4xl text-center font-bold my-8'>SERVICES AND SOLUTIONS</h1>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-center'>
-                <div className='w-3/4 flex items-start space-x-7'>
+            <div className='grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-4 justify-items-center'>
+                <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
                         <FontAwesomeIcon className='text-5xl text-[#8cc090]' icon={faReact} />
                     </div>
@@ -22,7 +22,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className='w-3/4 flex items-start space-x-7'>
+                <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
                         <FontAwesomeIcon className='text-5xl text-[#8cc090] justify-items-start' icon={faFreeCodeCamp} />
                     </div>
@@ -31,7 +31,7 @@ const Services = () => {
                         <p>I am ready to create any kind of feature you want. I am the best for unlimited features!!</p>
                     </div>
                 </div>
-                <div className='w-3/4 flex items-start space-x-7'>
+                <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
                         <i className="fa-sharp fa-solid fa-desktop text-5xl text-[#8cc090]"></i>
                     </div>
@@ -40,7 +40,7 @@ const Services = () => {
                         <p>I am ready to design any kind of responsive design, mobile, desktop, or tablet. I am the best for all kinds of responsive design.</p>
                     </div>
                 </div>
-                <div className='w-3/4 flex items-start space-x-7'>
+                <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
                         <FontAwesomeIcon className='text-5xl text-[#8cc090]' icon={faLightbulb} />
                     </div>
@@ -49,7 +49,7 @@ const Services = () => {
                         <p>I consider myself best for web-related creative ideas. You can get any kind of creative idea from me.</p>
                     </div>
                 </div>
-                <div className='w-3/4 flex items-start space-x-7'>
+                <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
                         <FontAwesomeIcon className='text-5xl text-[#8cc090]' icon={faEdit} />
                     </div>
@@ -58,7 +58,7 @@ const Services = () => {
                         <p>I have the customization facility of the web. I am ready for any type of web-related customization.</p>
                     </div>
                 </div>
-                <div className='w-3/4 flex items-start space-x-7'>
+                <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
                         <i className="fa-solid fa-headset text-5xl text-[#8cc090]"></i>
                     </div>
