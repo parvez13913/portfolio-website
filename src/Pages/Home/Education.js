@@ -26,7 +26,7 @@ const Education = () => {
             gpa: "4.73/5.00"
         },
         {
-            id: 3,
+            id: 4,
             degreeName: "Junior School Certificate At Garaganj Secondary School",
             PassingYear: "2014",
             gpa: "4.44/5.00"

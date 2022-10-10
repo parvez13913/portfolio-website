@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Banner from './Banner';
 import Education from './Education';
 import './Home.css';
@@ -16,6 +17,7 @@ const Home = () => {
             <Education />
             <Services />
             {/* <Projects /> */}
+            <Contact />
 
         </div>
     );

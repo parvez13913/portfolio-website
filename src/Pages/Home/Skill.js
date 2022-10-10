@@ -17,20 +17,20 @@ import canva from '../../images/skill/canva.svg';
 const Skill = () => {
 
     const skills = [
-        { name: "HTML", img: html, id: 1 },
-        { name: "CSS", img: css, id: 2 },
-        { name: "React", img: react, id: 3 },
-        { name: "Tailwind", img: tailwind, id: 4 },
-        { name: "Bootstrap", img: bootstrap, id: 5 },
-        { name: "Javascript", img: javascript, id: 6 },
-        { name: "MongoDB", img: mongoDB, id: 7 },
-        { name: "firebase", img: firebase, id: 8 },
-        { name: "Typescript", img: typescript, id: 9 },
-        { name: "Next", img: nextJS, id: 10 },
-        { name: "Express", img: expressJs, id: 11 },
-        { name: "Node", img: nodeJs, id: 12 },
-        { name: "figma", img: figma, id: 13 },
-        { name: "canva", img: canva, id: 14 }
+        { name: "HTML", img: html, id: 153637383930 },
+        { name: "CSS", img: css, id: 20987656544332 },
+        { name: "React", img: react, id: 30987654 },
+        { name: "Tailwind", img: tailwind, id: 4123456768 },
+        { name: "Bootstrap", img: bootstrap, id: 5234567890 },
+        { name: "Javascript", img: javascript, id: 623456798 },
+        { name: "MongoDB", img: mongoDB, id: 7223445778990 },
+        { name: "firebase", img: firebase, id: 83345567 },
+        { name: "Typescript", img: typescript, id: 933445566778989 },
+        { name: "Next", img: nextJS, id: 1033456778 },
+        { name: "Express", img: expressJs, id: 114567788 },
+        { name: "Node", img: nodeJs, id: 1222334333 },
+        { name: "figma", img: figma, id: 134444444444 },
+        { name: "canva", img: canva, id: 14775858585 }
     ]
     return (
         <div className='mt-24'>

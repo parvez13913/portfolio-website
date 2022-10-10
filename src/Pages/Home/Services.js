@@ -33,7 +33,7 @@ const Services = () => {
                 </div>
                 <div className='w-3/4 flex items-start space-x-7'>
                     <div className='scrvice-card'>
-                        <i class="fa-sharp fa-solid fa-desktop text-5xl text-[#8cc090]"></i>
+                        <i className="fa-sharp fa-solid fa-desktop text-5xl text-[#8cc090]"></i>
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>ULTRA RESPONSIVE</h2>
