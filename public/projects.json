@@ -1,0 +1,56 @@
+[
+  {
+    "id": "0",
+    "img": "https://i.ibb.co/Zzth3vq/taskla.png",
+    "live": "https://taskla-hr.netlify.app/",
+    "repo": "https://github.com/ranawp/taskla",
+    "title": "Bike Hero",
+    "description": "Learning management system-Team project",
+    "skills": ["ReactJs", "JavaScript", "MongoDb", "ExpressJs"]
+  },
+  {
+    "id": "1",
+    "img": "https://i.ibb.co/y026ZXK/bike.png",
+    "live": "https://bike-hero-5bfb8.firebaseapp.com/",
+    "repo": "https://github.com/parvez13913/bike-hero-client-public",
+    "title": "Bike Hero",
+    "description": "This is a manufacturer website.",
+    "skills": ["ReactJs", "JavaScript", "MongoDb", "ExpressJs"]
+  },
+  {
+    "id": "2",
+    "img": "https://i.ibb.co/09DjJ8z/perfume.png",
+    "live": "https://perfume-hero.web.app/",
+    "repo": "https://github.com/parvez13913/perfume-hero-client-public",
+    "title": "Perfume Hero",
+    "description": "This is a product stocking site.",
+    "skills": ["ReactJs", "JavaScript", "MongoDb", "ExpressJs"]
+  },
+  {
+    "id": "3",
+    "img": "https://i.ibb.co/yYdYbZD/photography.png",
+    "live": "https://basic-photography.web.app/",
+    "repo": "https://github.com/parvez13913/basic-photography-public",
+    "title": "Basic Photography",
+    "description": "This is a photography portfolio website, client can see package and choose one.",
+    "skills": ["ReactJs", "JavaScript", "FIREBASE"]
+  },
+  {
+    "id": "4",
+    "img": "https://i.ibb.co/tpLLXMK/crypto.png",
+    "live": "https://marvelous-pie-3639bf.netlify.app/",
+    "repo": "https://github.com/parvez13913/crypto-coin",
+    "title": "Crypto Coin",
+    "description": "This is a crypto coin portfolio website, client can see coin.",
+    "skills": ["ReactJs", "JavaScript", "Css"]
+  },
+  {
+    "id": "5",
+    "img": "https://i.ibb.co/zx6Htym/nica-event.png",
+    "live": "https://eloquent-williams-bfca6f.netlify.app/",
+    "repo": "https://github.com/parvez13913/convention-center",
+    "title": "NiCa Event Center",
+    "description": "This is a Nica event agency service provider website.",
+    "skills": ["Html", "Css", "Bootstrap", "JavaScript"]
+  }
+]

@@ -1,5 +1,10 @@
 .scrvice-card:hover {
   transform: rotateY(360deg);
-  transition-duration: 1s;
+  transition-duration: 1.5s;
+  animation: rotateAnimation 1s ease-in-out;
+}
+.scrvice-card:not(:hover) {
+  transform: rotateY(-360deg);
+  transition-duration: 1.5s;
   animation: rotateAnimation 1s ease-in-out;
 }

@@ -18,7 +18,7 @@ const Services = () => {
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>CREATIVE DESIGN</h2>
-                        <p>You will find unique and creative designs with me. I consider myself the best for new designs!</p>
+                        <p className='text-[#808da4]'>You will find unique and creative designs with me. I consider myself the best for new designs!</p>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ const Services = () => {
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>UNLIMITED FEATURES</h2>
-                        <p>I am ready to create any kind of feature you want. I am the best for unlimited features!!</p>
+                        <p className='text-[#808da4]'>I am ready to create any kind of feature you want. I am the best for unlimited features!!</p>
                     </div>
                 </div>
                 <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
@@ -37,7 +37,7 @@ const Services = () => {
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>ULTRA RESPONSIVE</h2>
-                        <p>I am ready to design any kind of responsive design, mobile, desktop, or tablet. I am the best for all kinds of responsive design.</p>
+                        <p className='text-[#808da4]'>I am ready to design any kind of responsive design, mobile, desktop, or tablet. I am the best for all kinds of responsive design.</p>
                     </div>
                 </div>
                 <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
@@ -46,7 +46,7 @@ const Services = () => {
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>CREATIVE IDEAS</h2>
-                        <p>I consider myself best for web-related creative ideas. You can get any kind of creative idea from me.</p>
+                        <p className='text-[#808da4]'>I consider myself best for web-related creative ideas. You can get any kind of creative idea from me.</p>
                     </div>
                 </div>
                 <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
@@ -55,7 +55,7 @@ const Services = () => {
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>EASY CUSTOMIZATION</h2>
-                        <p>I have the customization facility of the web. I am ready for any type of web-related customization.</p>
+                        <p className='text-[#808da4]'>I have the customization facility of the web. I am ready for any type of web-related customization.</p>
                     </div>
                 </div>
                 <div className='w-11/12 md:w-11/12 md:my-2 lg:w-3/4 flex items-start space-x-7'>
@@ -64,7 +64,7 @@ const Services = () => {
                     </div>
                     <div className='text-white'>
                         <h2 className='text-2xl font-bold'>SUPPER SUPPORT</h2>
-                        <p>I am ready to support my clients 24 hours a day, my clients can get support from me anytime.</p>
+                        <p className='text-[#808da4]'>I am ready to support my clients 24 hours a day, my clients can get support from me anytime.</p>
                     </div>
                 </div>
             </div>

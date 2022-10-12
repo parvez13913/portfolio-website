@@ -56,7 +56,7 @@ const Education = () => {
                         </div>
                         <div className='pl-3 mb-8 mt-6'>
                             <p className='text-xl'>{education.degreeName}</p>
-                            <p className='text-xl'>GPA : {education?.gpa || 'Nan'}</p>
+                            <p className='text-[#808da4]'>GPA : {education?.gpa || 'Pending...'}</p>
                         </div>
                     </div>)
                 }
