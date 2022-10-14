@@ -26,7 +26,7 @@ const Contact = () => {
                 <h1 className='text-center font-bold text-4xl text-[#8cc090]'>Contact Me</h1>
                 <p className='text-center text-white lg:text-2xl my-3'>Let's Get This Conversation Started. Tell Me A Bit About Yourself, And I Will Get In Touch As Soon As I Can.</p>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 justify-items-center mt-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 w-11/12 mx-auto mt-8'>
                 <div className='w-11/12'>
                     <div className='flex items-center lg:items-center space-x-3 mb-3'>
                         <i className="fa-solid fa-location-dot text-3xl text-[#8cc090]"></i>
