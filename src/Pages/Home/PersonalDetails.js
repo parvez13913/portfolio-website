@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 
 const PersonalDetails = () => {
     return (
-        <div className='lg:flex md:flex justify-around items-center my-8 font'>
+        <div className='container flex justify-between items-center font'>
             <div className='lg:pt-3 pt-2'>
-                <img className='w-96 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000' src={developerImg} alt="developerImg" />
+                <img className='w-9/12 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000 bg-red-100' src={developerImg} alt="developerImg" />
             </div>
-            <div className='text-left mt-16 pl-4 lg:pl-0'>
+            <div>
                 <div>
                     <h3 className='text-4xl mt-2 font-bold text-[#8cc090]'>About Me</h3>
                 </div>
                 <div>
                     <h2 className='text-3xl font-semibold mt-4 text-white'>PERSONAL INFORMATION</h2>
-                    <div className='grid grid-cols-2 gap-4 my-4 text-[#808da4]'>
+                    <div className='grid grid-cols-2 gap-4 pt-4 text-[#808da4]'>
                         <p>
                             <span className='font-semibold'>Name:</span> Parvez Rahman
                         </p>
                         <p>
-                            <span className='font-semibold'>Age:</span> 22 Years
+                            <span className='font-semibold'>Age:</span> 22 Year
                         </p>
                         <p>
                             <span className='font-semibold'>Email:</span> parvezz13913@gmail.com
@@ -32,7 +32,7 @@ const PersonalDetails = () => {
                             <span className='font-semibold'>Skill:</span> Font-End
                         </p>
                         <p>
-                            <span className='font-semibold'>Experience:</span> 1 Yerars
+                            <span className='font-semibold'>Experience:</span> 1 Year
                         </p>
                         <p>
                             <span className='font-semibold'>Language:</span> Bangla,English

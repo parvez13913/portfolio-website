@@ -8,10 +8,10 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div className='lg:pb-4 font'>
-            <div className='lg:flex md:flex justify-around items-center'>
+            <div className='lg:flex md:flex justify-around items-center container'>
                 <div className='p-4 lg:p-0'>
                     <h1 className='text-4xl text-[#8cc090] font-bold lg:my-3'>HELLO!</h1>
-                    <h1 className='text-3xl font-bold my-3 text-white'>I Am,Parvez Rahman</h1>
+                    <h1 className='text-3xl font-bold my-3 text-white'>I'm Parvez Rahman</h1>
                     <p className='text-xl text-[#808da4] leading-relaxed'>
                         I'm Parvez Rahman, a professional web developer with long-time experience in this field​.
                     </p>
