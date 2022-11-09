@@ -19,10 +19,10 @@ const Skill = () => {
     const skills = [
         { name: "HTML", img: html, id: 153637383930 },
         { name: "CSS", img: css, id: 20987656544332 },
-        { name: "React", img: react, id: 30987654 },
         { name: "Tailwind", img: tailwind, id: 4123456768 },
         { name: "Bootstrap", img: bootstrap, id: 5234567890 },
         { name: "Javascript", img: javascript, id: 623456798 },
+        { name: "React", img: react, id: 30987654 },
         { name: "MongoDB", img: mongoDB, id: 7223445778990 },
         { name: "firebase", img: firebase, id: 83345567 },
         { name: "Typescript", img: typescript, id: 933445566778989 },
@@ -33,16 +33,16 @@ const Skill = () => {
         { name: "canva", img: canva, id: 14775858585 }
     ]
     return (
-        <div className='mt-24'>
-            <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center font lg:mb-24'>My Skill</h2>
+        <div className='mt-24 container'>
+            <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center font lg:mb-10'>Technical Skills</h2>
 
 
-            <div className='my-4 grid grid-cols-2 md:grid-cols-3 md:gap-3 gap-2 lg:grid-cols-4 lg:gap-4 text-[#808da4] text-center justify-items-center'>
+            <div className='my-4 grid grid-cols-2 md:grid-cols-3 md:gap-3 gap-2 lg:grid-cols-7 lg:gap-4 text-[#808da4] text-center'>
                 {
                     skills.map(skill => <div
                         key={skill.id}
-                        className='border text-lg font-semibold border-[#8cc090] px-8 py-5 w-32 hover:bg-[#8cc090] hover:text-white flex flex-col justify-center items-center'>
-                        <img src={skill.img} alt="canva" />
+                        className='text-lg font-semibold bg-[#23344c] p-4 hover:text-white flex flex-col justify-center items-center rounded-xl shadow-lg'>
+                        <img className='w-20 h-20 scrvice-card' src={skill.img} alt="canva" />
                         <h2>{skill.name}</h2>
                     </div>)
                 }
