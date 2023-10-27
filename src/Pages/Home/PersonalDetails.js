@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 
 const PersonalDetails = () => {
     return (
-        <div id="about" className='container flex justify-between items-center font'>
-            <div className='lg:pt-3 pt-2'>
-                <img className='w-9/12 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000 bg-red-100' src={developerImg} alt="developerImg" />
+        <div id="about" className='container lg:flex justify-between items-center font mt-10 lg:mt-3'>
+
+            <div className='lg:pt-3 pt-2 hidden lg:flex'>
+                <img className='lg:w-9/12 rounded-md hover:scale-95 hover:-rotate-1 transform duration-1000 bg-red-100' src={developerImg} alt="developerImg" />
             </div>
+
             <div>
                 <div>
                     <h3 className='text-4xl mt-2 font-bold text-[#8cc090]'>About Me</h3>
