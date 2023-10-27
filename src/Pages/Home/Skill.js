@@ -8,11 +8,19 @@ import react from '../../images/skill/react.svg';
 import redux from '../../images/skill/redux-logo.svg';
 import nextAuth from '../../images/skill/next-auth.png';
 import mongoDB from '../../images/skill/mongoDb.png';
+import git from '../../images/skill/git-icon.svg';
+import visualStudioCode from '../../images/skill/visual-studio-code.svg';
 import firebase from '../../images/skill/firebase.svg';
 import typescript from '../../images/skill/typescript.svg';
 import nextJS from '../../images/skill/nextJS.svg';
 import expressJs from '../../images/skill/expressJs.svg';
 import mongoose from '../../images/skill/mongoose.png';
+import postgresql from '../../images/skill/postgresql.svg';
+import prisma from '../../images/skill/prisma.svg';
+import graphql from '../../images/skill/graphql.svg';
+import jest from '../../images/skill/jest.svg';
+import aws from '../../images/skill/aws.svg';
+import docker from '../../images/skill/docker.svg';
 import nodeJs from '../../images/skill/nodeJs.svg';
 import figma from '../../images/skill/figma.svg';
 import canva from '../../images/skill/canva.svg';
@@ -30,11 +38,19 @@ const Skill = () => {
         { name: "Next", img: nextJS, id: 1033456778 },
         { name: "Next Auth", img: nextAuth, id: 103345677877665 },
         { name: "Redux", img: redux, id: 1033456778345 },
-        { name: "firebase", img: firebase, id: 83345567 },
+        { name: "Firebase", img: firebase, id: 83345567 },
+        { name: "Git", img: git, id: 83776345567 },
+        { name: "VS Code", img: visualStudioCode, id: 837763467 },
         { name: "Node", img: nodeJs, id: 1222334333 },
         { name: "Express", img: expressJs, id: 114567788 },
         { name: "MongoDB", img: mongoDB, id: 7223445778990 },
         { name: "Mongoose", img: mongoose, id: 34457789334290 },
+        { name: "PostgreSQL", img: postgresql, id: 344579334290 },
+        { name: "Prisma", img: prisma, id: 354579334290 },
+        { name: "GraphQL", img: graphql, id: 254579334290 },
+        { name: "Jest", img: jest, id: 1154579334290 },
+        { name: "AWS", img: aws, id: 11579334290 },
+        { name: "Docker", img: docker, id: 88579334290 },
         { name: "figma", img: figma, id: 134444444444 },
         { name: "canva", img: canva, id: 14775858585 }
     ]
