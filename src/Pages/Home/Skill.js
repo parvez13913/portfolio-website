@@ -55,7 +55,7 @@ const Skill = () => {
         { name: "canva", img: canva, id: 14775858585 }
     ]
     return (
-        <div className='mt-24 container'>
+        <div id='skill' className='mt-24 container'>
             <h2 className='text-4xl text-[#8cc090] font-bold mt-3 text-center font lg:mb-10'>Technical Skills</h2>
 
 

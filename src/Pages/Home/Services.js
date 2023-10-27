@@ -7,7 +7,7 @@ import './Service.css';
 const Services = () => {
 
     return (
-        <div className='font'>
+        <div id='service' className='font'>
             <div>
                 <h1 className='text-[#8cc090] text-4xl text-center font-bold my-8'>SERVICES AND SOLUTIONS</h1>
             </div>

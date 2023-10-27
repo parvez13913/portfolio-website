@@ -4,7 +4,7 @@ const Project = ({
     project: { img, skills, title, description, live, repo },
 }) => {
     return (
-        <motion.div
+        <motion.div id="projects"
             whileHover={{ scale: 1.1, boxShadow: "5px 10px 18px #888888" }}
             className="group relative rounded-xl"
         >

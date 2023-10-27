@@ -21,7 +21,7 @@ const Contact = () => {
         e.reset();
     };
     return (
-        <div className='font mt-12 pb-4'>
+        <div id='contact' className='font mt-12 pb-4'>
             <div>
                 <h1 className='text-center font-bold text-4xl text-[#8cc090]'>Contact Me</h1>
                 <p className='text-center text-white lg:text-2xl my-3'>Let's Get This Conversation Started. Tell Me A Bit About Yourself, And I Will Get In Touch As Soon As I Can.</p>

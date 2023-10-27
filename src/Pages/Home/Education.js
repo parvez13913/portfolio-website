@@ -38,7 +38,7 @@ const Education = () => {
         },
     ]
     return (
-        <div className='mt-24 font'>
+        <div id='education' className='mt-24 font'>
             <h2 className='text-center text-4xl font-bold'>
                 <span className='text-white'>My</span>
                 <span className='text-[#8cc090]'> Education</span>

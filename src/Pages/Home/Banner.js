@@ -7,7 +7,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='lg:pb-4 font'>
+        <div id='banner' className='lg:pb-4 font'>
             <div className='lg:flex md:flex justify-around items-center container'>
                 <div className='p-4 lg:p-0'>
                     <h1 className='text-4xl text-[#8cc090] font-bold lg:my-3'>HELLO!</h1>

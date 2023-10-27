@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomLink from '../../CustomLink/CustomLink';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Header = () => {
@@ -11,46 +11,46 @@ const Header = () => {
             <div className="text-[#8b98af] mx-auto">
                 <ul className="p-0 font-semibold flex space-x-8">
                     <li>
-                        <CustomLink className="space-x-2 btn" to='/home'>
+                        <HashLink className="space-x-2 btn" smooth to='home#banner'>
                             <i className="fa-solid fa-house"></i>
                             <span>Home</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                     <li>
-                        <CustomLink className='space-x-2 btn' to='/about'>
+                        <HashLink className='space-x-2 btn' smooth to='home#about'>
                             <i className="fa-solid fa-user"></i>
                             <span>About</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                     <li>
-                        <CustomLink className='space-x-2 btn' to='/skill'>
+                        <HashLink className='space-x-2 btn' smooth to='home#skill'>
                             <i className="fa-solid fa-lightbulb"></i>
                             <span>Skills</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                     <li>
-                        <CustomLink className='space-x-2 btn' to='/education'>
+                        <HashLink className='space-x-2 btn' smooth to='home#education'>
                             <i className="fa-solid fa-user-graduate"></i>
                             <span>Education</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                     <li>
-                        <CustomLink className='space-x-2 btn' to='/service'>
+                        <HashLink className='space-x-2 btn' smooth to='home#service'>
                             <i className="fa-solid fa-gears"></i>
                             <span>Services</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                     <li>
-                        <CustomLink className='space-x-2 btn' to='/projects'>
+                        <HashLink className='space-x-2 btn' smooth to='home#projects'>
                             <i className="fa-solid fa-briefcase"></i>
                             <span>Projects</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                     <li>
-                        <CustomLink className='space-x-2 btn' to='/contact'>
+                        <HashLink className='space-x-2 btn' smooth to='home#contact'>
                             <i className="fa-solid fa-address-book"></i>
                             <span>Contact</span>
-                        </CustomLink>
+                        </HashLink>
                     </li>
                 </ul>
             </div>
