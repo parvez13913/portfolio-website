@@ -16,21 +16,21 @@ const Banner = () => {
                         I'm Parvez Rahman, a professional web developer with long-time experience in this field​.
                     </p>
                     <div className='justify-items-center space-x-8 mt-2'>
-                        <a target='_blank' href="https://www.facebook.com/parvez.rahman.13913">
+                        <a target='_blank' href="https://www.facebook.com/parvez.rahman.13913" rel="noreferrer">
                             <FontAwesomeIcon className='text-2xl border p-2 rounded-full text-[#8cc090] border-[#8cc090] hover:bg-[#8cc090] hover:text-white' icon={faFacebook} />
                         </a>
-                        <a target='_blank' href="https://www.instagram.com/parvez13913/">
+                        <a target='_blank' href="https://www.instagram.com/parvez13913/" rel="noreferrer">
                             <FontAwesomeIcon className='text-2xl border rounded-full p-2 text-[#8cc090] border-[#8cc090] hover:bg-[#8cc090] hover:text-white' icon={faInstagram} />
                         </a>
-                        <a target='_blank' href="https://www.linkedin.com/in/parvez-rahman-87714422a/">
+                        <a target='_blank' href="https://www.linkedin.com/in/parvez13913/" rel="noreferrer">
                             <FontAwesomeIcon className='text-2xl border rounded-full p-2 text-[#8cc090] border-[#8cc090] hover:bg-[#8cc090] hover:text-white' icon={faLinkedinIn} />
                         </a>
-                        <a target='_blank' href="https://github.com/parvez13913">
+                        <a target='_blank' href="https://github.com/parvez13913" rel="noreferrer">
                             <FontAwesomeIcon className='text-2xl border rounded-full p-2 text-[#8cc090] border-[#8cc090] hover:bg-[#8cc090] hover:text-white' icon={faGithub} />
                         </a>
                     </div>
                     <button className="uppercase p-3 font-normal text-white btn-wide mt-6 border border-[#8cc090] hover:rounded-full transform duration-1000">
-                        <a href='https://www.linkedin.com/in/parvez-rahman-87714422a/' target={'_blank'}>
+                        <a href='https://www.linkedin.com/in/parvez13913/' target={'_blank'} rel="noreferrer">
                             View Full Details
                         </a>
                     </button>

@@ -20,7 +20,7 @@ const PersonalDetails = () => {
                             <span className='font-semibold'>Name:</span> Parvez Rahman
                         </p>
                         <p>
-                            <span className='font-semibold'>Age:</span> 22 Year
+                            <span className='font-semibold'>Age:</span> 23 Year
                         </p>
                         <p>
                             <span className='font-semibold'>Email:</span> parvezz13913@gmail.com
@@ -32,7 +32,7 @@ const PersonalDetails = () => {
                             <span className='font-semibold'>Skill:</span> Font-End
                         </p>
                         <p>
-                            <span className='font-semibold'>Experience:</span> 1 Year
+                            <span className='font-semibold'>Experience:</span> 1.5 Year
                         </p>
                         <p>
                             <span className='font-semibold'>Language:</span> Bangla,English

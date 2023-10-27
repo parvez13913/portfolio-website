@@ -9,6 +9,11 @@ const Education = () => {
             PassingYear: "2022-2022",
         },
         {
+            id: 0,
+            degreeName: "Next Level Web Development Course With Programming Hero",
+            PassingYear: "2023-2023",
+        },
+        {
             id: 1,
             degreeName: "Bachelor Of Science  Department of Chemistry",
             PassingYear: "2021-2025",
